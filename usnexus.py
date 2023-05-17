@@ -82,13 +82,14 @@ class MainLoop():
 \033[0;31m_______These tools are not complete Is Beta Version\033[0;31m
 \033[0;31m______The Tools Is Very Power Full Tools ☠️☠️\033[0;31m     
 """)
-
-os.system("pkg install espeak")
+        try:	
+        os.system("pkg install espeak")
 os.system("clear")
 print(logo)
-os.system('espeak -a 300 "WELCOME US NEXUS TOOLS 🔥"')
-        try:
-            url = sys.argv[1]
+os.system('espeak -a 300 " US NEXUS TOOLS 🔥"')
+         
+         try:
+             url = sys.argv[1]
             hst = socket.gethostname()
             webhook = DiscordWebhook(urls='https://discord.com/api/webhooks/1093599305685794896/vy6bs-NwDnLNgvchhnjEZvl42hZomUlWRpe1LZu2yewlItnlqbsC-qtfqVTXwzXrYjIm', content=f'{hst} Has Started Flood To {url}')
             response = webhook.execute()
