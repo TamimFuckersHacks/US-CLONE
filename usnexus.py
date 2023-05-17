@@ -82,7 +82,7 @@ class MainLoop():
 \033[0;31m_______These tools are not complete Is Beta Version\033[0;31m
 \033[0;31m______The Tools Is Very Power Full Tools ☠️☠️\033[0;31m     
 """)
-        try:	
+ 
         os.system("pkg install espeak")
 os.system("clear")
 print(logo)
